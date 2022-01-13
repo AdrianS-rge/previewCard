@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(13, 26, 45);
+}
+
+
+#Principal {
+    background:rgb(21, 39, 63);
+    height: 65vh;
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+.imagemDeCubo {
+    margin: 20px 20px;
+    height: 35vh;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+.primeiraFrase {
+    padding: 10px 20px;
+    color: rgb(248, 255, 255);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.segundaFrase {
+    font-family:  'Roboto', sans-serif;
+    color: rgb(109, 130, 159);
+    font-size: 23px;
+    padding: 10px 20px;
+}
+
+.eth {
+    padding: 10px 20px;
+    float: left;
+}
+
+.cristal {
+    float: left;
+    padding-right: 3px;
+}
+
+.editarETH {
+    float: right;
+    padding-left: 5px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    color: rgb(48, 203, 207);
+}
+
+.tempoRestante {
+    padding: 10px 20px;
+    float: right;
+}
+
+.relogio {
+    float: left;
+    padding-right: 3px;
+}
+
+.editar3Days {
+    float: right;
+    padding-left: 5px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+    color: rgb(109, 130, 159);
+}
+
+hr {
+    position: relative;
+    display: block;
+    border: 1px solid rgba(109, 130, 159, 0.4);
+    top: 20px;
+    bottom: 20px;
+    left: auto;
+    right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 90%;
+    clear: both;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+footer {
+    position: relative;
+    top: 30px;
+    padding: 10px 20px;
+    clear: both;
+}
+
+.foto {
+    float: left;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.descrição {
+    padding: 10px 20px;
+    font-family:  'Be Vietnam Pro', sans-serif;
+    color: rgb(109, 130, 159);
+    font-size: 15px;
+    letter-spacing: 0.5px
+}
+
+a {
+  text-decoration: none;
+  color: rgb(231, 244, 255);
+}
+
+@media screen and (max-width: 400px) {
+    #Principal {
+      height: 80vh;
+      width: 90%
+    }
+
+    #imagemDeCubo {
+        width: 88%;
+    }
+  }
